@@ -7,4 +7,6 @@ class User extends Person {
 
   User(String name, String phone, Address address, this.login, this.password)
       : super(name, phone, address: address);
+
+  String tellMyName(String name) => 'I am a user. ${super.tellMyName(name)}';
 }

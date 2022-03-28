@@ -9,4 +9,6 @@ void main() {
 
   Person son = Person.kid('Mike Doe');
   print(son.name); // Mike Doe
+
+  print(father.tellMyName('John')); // My name is John
 }

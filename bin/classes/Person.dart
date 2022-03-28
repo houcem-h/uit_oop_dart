@@ -8,4 +8,6 @@ class Person {
 
   Person(this.name, this._phone, {this.address, this.email});
   Person.kid(this.name);
+
+  String tellMyName(String name) => 'My name is $name';
 }

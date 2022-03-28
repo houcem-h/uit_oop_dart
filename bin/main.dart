@@ -1,5 +1,5 @@
-import './person_class.dart';
-import './address_class.dart';
+import './classes/Person.dart';
+import './classes/Address.dart';
 
 void main() {
   Address fatherAddress = Address(123, 'Anytown', 'CA', 90210);

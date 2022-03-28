@@ -1,5 +1,5 @@
-import './person_class.dart';
-import './address_class.dart';
+import 'Person.dart';
+import 'Address.dart';
 
 class User extends Person {
   String login;

@@ -1,4 +1,4 @@
-import './address_class.dart';
+import 'Address.dart';
 
 class Person {
   String? name;
